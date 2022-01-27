@@ -1,6 +1,4 @@
-<script type="text/javascript">
-
-        let c =document.getElementById('myCanvas');
+let c =document.getElementById('myCanvas');
 
 var ctx =c.getContext("2d");
 
@@ -141,3 +139,11 @@ loadImages((images)=>{
     document.addEventListener("keyup",(event)=>{
 
         const key = event.key;
+            
+        if(key === "ArrowLeft"){
+                queueAnimation.push("Kick");
+        }else if(key === "ArrowRight") {
+                queueAnimation.push("punch");
+        }
+    })
+})
