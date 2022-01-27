@@ -1,0 +1,27 @@
+<html>
+<head>
+    <style>
+        h1{
+            color: aquamarine;
+            font-size:70px;
+            margin: 0px;
+            background-color:darkgrey;
+            text-align: center;
+        
+        }
+        p{
+            background-color: darkgoldenrod;
+            font-size:50px;
+            
+        }
+    </style>
+    <body>
+
+        <h1>personal website</h1>
+        <p> ABOUT ME<br> Hi, iam sreeja iam basically from karimnagar but currently staying in hyderabad my mother name is rama she is a government employee and my father is also a government employee<br>i have done my schooling in vivekananda residential school and intermediate in alphores karimnagar iam currently pursuing my btech in BVRIT HYDERABAD college of engineering for women my hobbies are watching TV ,playing games my strength is iam dedicated to my work ,I can deal with situation,sincere and honest.I just love travelling. </h1></p>
+
+        <img  src="C:\Users\SREEJA\Downloads\sreeja.jpeg">
+        
+    </body>
+</head>
+</html>
