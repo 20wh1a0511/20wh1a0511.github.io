@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <title>OUR COURSES</title>
+
+<section id="course">
+
+    <h1 class="heading">our latest courses</h1>
+    
+    <div class="box-container">
+    
+      <div class="box" data-aos="flip-right">
+        <img src="images/p12.png">
+        <p>HTML is the language in which most websites are written. HTML is used to create pages and make them functional.<br>
+          <form method="GET" action="/button1submit">
+          <button class="btn">Know More</button>
+        </form>
+      </p>
+      </div>
+      
+      <div class="box" data-aos="flip-down">
+        <img src="images/css.png" alt="">
+        <p>CSS is the language we use to style an HTML document.CSS describes how HTML elements should be displayed.<br>
+          <form method="GET" action="/button2submit">
+            <button class="btn">Know More</button>
+            </form>
+        </p>
+      </div>
+    
+      <div class="box" data-aos="flip-left">
+        <img src="images/p13.png" alt="">
+        <p>JavaScript is the world's most popular programming language.JavaScript is the programming language of the Web.<br><br><button class="btn">UPCOMING COURSE</button></p>
+      </div>
+    
+      <div class="box" data-aos="flip-right">
+        <img src="images/api.png" alt="">
+        <p>An application programming interface (API) is a way for two or more computer programs to communicate with each other.<br><br><button class="btn">UPCOMING COURSE</button></p>
+      </div>
+    
+      <div class="box" data-aos="flip-up">
+        <img src="images/db.png" alt="">
+        <p>A database is information that is set up for easy access, management and updating.<br><br><button class="btn">UPCOMING COURSE</button></p>
+      </div>
+    
+      <div class="box" data-aos="flip-right">
+        <img src="images/extensions.png" alt="">
+        <p>Here, you can see all the installations you need to install in web development.<br><br><button class="btn">UPCOMING COURSE</button></p>
+      </div>
+    
+    </div>
+
+    
+    </section>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            -webkit-box-sizing: border-box;
+                    box-sizing: border-box;
+            text-transform: capitalize;
+            -webkit-transition: all .2s linear;
+            transition: all .2s linear;
+            font-family: 'Exo 2', sans-serif;
+          }
+          a{
+            scroll-behavior: smooth;
+          }
+          
+          html {
+            font-size: 62.5%;
+            scroll-behavior: smooth;
+          }
+        #course {
+            display: -ms-grid;
+            display: grid;
+            place-items: center;
+            min-height: 100vh;
+            width: 100vw;
+          }
+          
+          #course .heading {
+            font-size: 4rem;
+            padding-top: 5rem;
+            margin: 2rem 0;
+            color: #fff;
+            text-align: center;
+            position: relative;
+            color: black;
+          }
+          
+          #course .heading::after {
+            content: '';
+            position: absolute;
+            bottom: -1.5rem;
+            left: 50%;
+            -webkit-transform: translateX(-50%);
+                    transform: translateX(-50%);
+            height: .3rem;
+            width: 60%;
+            border-radius: 5rem;
+            background: #333;
+          }
+          
+          #course .box-container {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            width: 90%;
+            -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+          }
+          
+          #course .box-container .box {
+            height: 25rem;
+            width: 30rem;
+            border-radius: .5rem;
+            -webkit-box-shadow: 0 0 .3rem #333;
+                    box-shadow: 0 0 .3rem #333;
+            margin: 2rem;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+                -ms-flex-align: center;
+                    align-items: center;
+            -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                    justify-content: center;
+            -webkit-box-orient: vertical;
+            -webkit-box-direction: normal;
+                -ms-flex-flow: column;
+                    flex-flow: column;
+            cursor: pointer;
+            overflow: hidden;
+          }
+          
+          #course .box-container .box img {
+            height: 35%;
+            width: 35%;
+            -webkit-transform: translateY(5rem);
+                    transform: translateY(5rem);
+          }
+          
+          #course .box-container .box p {
+            font-size: 1.3rem;
+            text-align: center;
+            color: #fff;
+            opacity: 0;
+            -webkit-transform: translateY(12rem);
+                    transform: translateY(12rem);
+            padding: 0 .4rem;
+          }
+          
+          #course .box-container .box:hover p {
+            opacity: 1;
+            -webkit-transform: translateY(0rem);
+                    transform: translateY(0rem);
+          }
+          
+          #course .box-container .box:hover img {
+            height: 25%;
+            width: 25%;
+            -webkit-transform: translateY(-2rem);
+                    transform: translateY(-2rem);
+          }
+          
+          #course .box-container .box:hover {
+            background: #333;
+          }
+          
+          #course .box-container .box form button{
+              display: inline-block;
+              padding: 5px 10px;
+              border: 1px solid #fff;
+              color: #334;
+              font-size: 13px;
+          }
+          
+        </style>
+   </html>

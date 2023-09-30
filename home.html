@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>home</title>
+
+   <!-- font awesome cdn link  -->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+   <!-- swiper css link  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css" />
+
+   <!-- custom css file link  -->
+
+</head>
+<body>
+   
+<!-- header section starts  -->
+
+<header class="header">
+
+   <a href="#" class="logo"> <i class="fas fa-lightbulb"></i> Webopedia </a>
+
+   <nav class="navbar">
+      <div style="display:flex;">
+      <form method="get" action="/homesubmit">
+         <button> <span>Home</span></button>
+      </form>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <form method="get" action="/aboutsubmit">
+         <button> <span>About</span> </button>
+      </form>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <form method="get" action="/quizsubmit">
+         <button> <span>Quiz </span> </button>
+      </form>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <form method="get" action="/reviewsubmit">
+         <button> <span>Review</span> </button>
+      </form>
+   </div>
+   </nav>
+
+   
+
+</header>
+
+
+<!-- header section ends -->
+
+<!-- home section starts  -->
+
+<section class="home">
+
+   <div class="swiper home-slider">
+      
+      <div class="swiper-wrapper">
+
+         <section class="swiper-slide slide" style="background: url(images/p11.jpeg) no-repeat;">
+            <div class="content">
+               <h3>the best courses you will find here!</h3>
+               <p>Technology can become the wings that will allow the educational world to fly farther and faster than ever before - If we allow it</p>
+               <form action="/startedsubmit" method="get"><button class="btn">get started</button></form>
+            </div>
+            <div class="whatsapp">
+               <a href="https://wa.me/916304568535"><img src="images/WhatsApp.png" width="80mpx"></a>
+            </div>
+         </section>
+
+      </div>
+
+   </div>
+
+</section>
+
+<!-- home section ends -->
+
+
+
+
+
+
+
+<style>
+   @import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600&display=swap");
+* {
+  font-family: 'Nunito', sans-serif;
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  -webkit-transition: all .2s linear;
+  transition: all .2s linear;
+}
+
+img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+}
+
+html {
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+section {
+   padding: 5rem 10%;
+ }
+ 
+ .heading-link {
+   text-align: center;
+   background: url(../images/heading-bg.jpg) no-repeat;
+   background-size: cover;
+   background-position: center;
+ }
+ 
+ .heading-link h3 {
+   font-size: 4rem;
+   text-transform: capitalize;
+   
+ }
+ 
+ .heading-link p {
+   font-size: 2rem;
+   line-height: 2;
+   
+ }
+ 
+ .heading-link p a {
+   color: #0eb582;
+ }
+ 
+ .heading-link p a:hover {
+   text-decoration: underline;
+ }
+ 
+ .heading {
+   text-align: center;
+   margin-bottom: 3rem;
+   font-size: 3.5rem;
+   text-transform: capitalize;
+   
+ }
+ 
+ .btn {
+   display: inline-block;
+   margin-top: 1rem;
+   padding: 1rem 3rem;
+   font-size: 1.8rem;
+   border: 0.1rem solid #0eb582;
+   background: #f0fdfa;
+   color: #0eb582;
+   cursor: pointer;
+   text-transform: capitalize;
+ }
+ 
+ .btn:hover {
+   background: #0eb582;
+   color: #fff;
+ }
+ 
+ .header {
+   position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   left: 0;
+   right: 0;
+   background: #fff;
+   -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+           box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
+   padding: 2rem 10%;
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   z-index: 1000;
+ }
+ 
+ .header .logo {
+   margin-right: auto;
+   font-size: 2.5rem;
+   text-transform: capitalize;
+   color: grey;
+   font-weight: bolder;
+ }
+ 
+ .header .logo i {
+    color: blue;
+ }
+ 
+ .header .navbar {
+   position: relative;
+ }
+ 
+ .header .navbar #close-navbar {
+   position: absolute;
+   top: 1.5rem;
+   right: 2rem;
+   font-size: 4rem;
+   cursor: pointer;
+   display: none;
+ }
+ 
+ .header .navbar #close-navbar:hover {
+   -webkit-transform: rotate(90deg);
+           transform: rotate(90deg);
+ }
+ 
+ .header .navbar .buton{
+   margin-right: 2rem;
+   font-size: 2rem;
+   text-transform: capitalize;
+   
+ }
+ 
+ .header .navbar .buton:hover {
+   color: #0eb582;
+ }
+ 
+ .header .icons div {
+   cursor: pointer;
+   font-size: 2.5rem;
+   margin-left: 1.5rem;
+ }
+ 
+ .header .icons div:hover {
+   color: #0eb582;
+ }
+ 
+ .header #menu-btn {
+   display: none;
+ }
+
+ 
+ .home {
+   padding: 0;
+ }
+ 
+ .home .slide {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+   -webkit-box-align: center;
+       -ms-flex-align: center;
+           align-items: center;
+   height: 80rem;
+   background-size: cover !important;
+   background-position: center !important;
+ }
+ 
+ .home .slide .content {
+   width: 50rem;
+ }
+ 
+ .home .slide .content h3 {
+   font-size: 5rem;
+   text-transform: capitalize;
+   
+   color: #fff;
+ }
+ 
+ .home .slide .content p {
+   font-size: 1.6rem;
+   line-height: 2;
+   color: #eee;
+   padding: 1rem 0;
+ }
+ .whatsapp{
+    position: fixed;
+    bottom: 70px;
+    right: 20px;
+    left: 0px;
+ }
+ span{
+    font-weight: 700;
+    font-size: 23px;
+ }
+ 
+ /*# sourceMappingURL=style.css.map */
+</style>
+
+<!-- swiper js link  -->
+<script src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
+
+<!-- custom js file link  -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
